@@ -30,7 +30,7 @@ function setup() {
 		fairy.addAnimation("fairy",fairyImg);
 		fairy.scale=0.25;
 		fairy.setCollider("rectangle",490,-15,100,150);
-		fairy.debug=true
+		
 		star = createSprite(650,30);
 		star.addImage(starImg);
 		star.scale = 0.2;
